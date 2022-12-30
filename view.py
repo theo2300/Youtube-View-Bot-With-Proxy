@@ -1,8 +1,26 @@
-import webbrowser
-
+from selenium import webdriver
+from selenium.webdriver.common.proxy import Proxy, ProxyType
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 import time
-
+from threading import Thread, Barrier
 import os
+
+#below code was copied from internet source for script run 
+
+def load_proxies(PATH): # for loading the proxies
+    return open(PATH).read().split('\n') 
+
+def load_session(url,proxy): # manage each session
+    proxy,port = proxy.split(':')
+    profile = webdriver.Chrome()
+    profile.set_preference("network.proxy.type", 1)
+    profile.set_preference("network.proxy.http", proxy)
+    profile.set_preference("network.proxy.http_port", port)
+    profile.set_preference("network.proxy.ssl", proxy)
+    profile.set_preference("network.proxy.ssl_port", port)
+    profile.update_preferences()
+
 
 inpt = input("Enter youtube url: ")
 
@@ -24,3 +42,4 @@ while (counter != inp4):
 	time.sleep(inpt2)
 	counter = counter +1
 	
+
