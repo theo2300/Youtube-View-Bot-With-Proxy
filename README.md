@@ -1,7 +1,13 @@
 # Youtube Fast View Bot
  A very fast youtube viewer bot
  
- Then Enter Pip install Proxy in cmd
+ Youtube Views Bot BY Rae Armani
+
+To run this bot open cmd then enter pip install pysocks and hit enter button then again 
+
+pip install mechanize hit enter button
+
+Then again Enter Pip install Proxy and hit button
 
 After download the chromedriver(https://chromedriver.chromium.org/downloads extract these to downloaded folder)and with matches your chrome version of your pc and
 
