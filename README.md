@@ -1,8 +1,6 @@
 # Youtube Fast View Bot
  A very fast youtube viewer bot
  
- Youtube Views Bot BY Rae Armani
-
 To run this bot open cmd then enter pip install pysocks and hit enter button then again 
 
 pip install mechanize hit enter button
