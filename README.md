@@ -9,7 +9,7 @@ Then again Enter Pip install Proxy and hit button
 
 After download the chromedriver(https://chromedriver.chromium.org/downloads extract these to downloaded folder)and with matches your chrome version of your pc and
 
-and enter git.py in cmd or in double click on git.py file..
+and enter view.py in cmd or in double click on view.py file..
 
 👉Note:-
 
