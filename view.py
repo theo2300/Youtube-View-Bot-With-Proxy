@@ -6,8 +6,6 @@ import time
 from threading import Thread, Barrier
 import os
 
-#below code was copied from internet source for script run 
-
 def load_proxies(PATH): # for loading the proxies
     return open(PATH).read().split('\n') 
 
