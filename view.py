@@ -1,4 +1,4 @@
-from selenium import webdriver
+import webbrowser
 from selenium.webdriver.common.proxy import Proxy, ProxyType
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -19,7 +19,6 @@ def load_session(url,proxy): # manage each session
     profile.set_preference("network.proxy.ssl_port", port)
     profile.update_preferences()
 
-
 inpt = input("Enter youtube url: ")
 
 inpt2 = float(input("Enter refresh rate(seconds): "))
@@ -39,5 +38,3 @@ while (counter != inp4):
 	webbrowser.open(inpt)
 	time.sleep(inpt2)
 	counter = counter +1
-	
-
