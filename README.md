@@ -3,11 +3,16 @@
  
 To run this bot, open the command prompt and enter the following commands:
 
-"pip install pysocks" (hit enter)
+"pip install pysock
 
-"pip install mechanize" (hit enter)
+replace YouTube url & no of views 
+in 31 to 33 line
 
-"pip install Proxy" (hit enter)
+# Ex:
+
+Enter YouTube URL: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+Enter refresh rate (seconds): 5
+Enter number of views: 100
 
 After downloading the chromedriver from https://chromedriver.chromium.org/downloads, extract the files to a folder that matches your Chrome version on your PC.
 
