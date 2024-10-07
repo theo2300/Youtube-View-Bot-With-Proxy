@@ -11,7 +11,9 @@ in 31 to 33 line
 # Ex:
 
 Enter YouTube URL: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+
 Enter refresh rate (seconds): 5
+
 Enter number of views: 100
 
 After downloading the chromedriver from https://chromedriver.chromium.org/downloads, extract the files to a folder that matches your Chrome version on your PC.
