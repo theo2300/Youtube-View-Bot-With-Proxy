@@ -3,7 +3,7 @@
  
 To run this bot, open the command prompt and enter the following commands:
 
-"pip install pysock
+# pip install selenium
 
 replace YouTube url & no of views 
 in 31 to 33 line
