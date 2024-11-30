@@ -3,24 +3,21 @@
  
 To run this bot, open the command prompt and enter the following commands:
 
-# pip install selenium
+# pip install fake_useragent selenium selenium-stealth
 
-replace YouTube url & no of views 
-in 31 to 33 line
-
-# Ex:
+when you run python view.py or ./view.py file it ask...
 
 Enter YouTube URL: https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
-Enter refresh rate (seconds): 5
+Enter refresh rate (seconds): 30
 
-Enter number of views: 100
+Enter number of views: 30
 
 After downloading the chromedriver from https://chromedriver.chromium.org/downloads, extract the files to a folder that matches your Chrome version on your PC.
 
 Finally, navigate to the directory where you saved the files and run "view.py" in the command prompt or by double-clicking on the "view.py" file.
 
-👉Note:-
+# 👉Note:-
 
 👉if your selenium version is in latest version then the code never run
 
